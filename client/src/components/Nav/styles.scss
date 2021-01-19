@@ -1,0 +1,11 @@
+@import "../../assets/styles/Vars.scss";
+
+.nav {
+  background-color: $secondary_color;
+  font-family: $font_family;
+  color: $primary_color;
+  text-align: center;
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 2rem;
+}

@@ -1,0 +1,10 @@
+@import "../../assets/styles/Vars.scss";
+
+.weather {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  font-family: $font_family;
+  color: $primary_color;
+  justify-items: center;
+  margin-top: 1rem;
+}

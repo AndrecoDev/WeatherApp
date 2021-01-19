@@ -1,0 +1,34 @@
+@import "../../assets/styles/Vars.scss";
+
+.search {
+  display: grid;
+  justify-content: center;
+}
+
+.search_input {
+  font-family: $font_family;
+  border-radius: 20px;
+  border: none;
+  text-align: center;
+  width: 100%;
+  max-width: 60%;
+  padding: 0.5rem;
+  padding-inline-end: 3rem;
+  padding-inline-start: 3rem;
+}
+
+.search_input:focus {
+  outline: none;
+}
+
+.search_item-button {
+  background-color: transparent;
+  border: none;
+  color: $primary_color;
+  font-family: $font_family;
+  margin-top: 1vh;
+}
+
+.search_item-button:hover {
+  cursor: pointer;
+}
